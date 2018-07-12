@@ -1,40 +1,62 @@
 body {
-    background: #136a8a;
-    background: -webkit-linear-gradient(to left, #b3e6eb, #6281c9);
-    background: linear-gradient(to left, #b3e6eb, #6281c9);
+  -webkit-font-smoothing: antialiased;
+  background: #136a8a;
+  background: -webkit-linear-gradient(to left, #b3e6eb, #6281c9);
+  background: linear-gradient(to left, #b3e6eb, #6281c9);
+}
+
+.list-item-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  margin: 25px;
+  text-align: center;
+  flex-grow: 2;
+}
+
+.btn {
+  margin-left: auto;
+  height: 40px;
 }
 
 .no-padding {
-    padding: 0 !important;
+  padding: 0 !important;
 }
 
 .no-margin {
-    margin: 0 !important;
+  margin: 0 !important;
 }
 
 .white {
-    color: white !important;
+  color: white !important;
 }
 
 .strike-through {
-    text-decoration: line-through;
+  text-decoration: line-through;
 }
 
 textarea {
-    width: 100%;
-    max-width: 100%;
-    min-height: 8em;
-    max-height: 16em;
+  width: 100%;
+  max-width: 100%;
+  min-height: 8em;
+  max-height: 16em;
 }
 
 strong + small {
-    display: block;
+  display: block;
 }
 
 input[type=checkbox] {
-    margin-right: 1em;
+  margin-right: 1em;
 }
 
 div.pull-right a {
-    margin-left: 1em;
+  margin-left: 1em;
+}
+
+.card {
+  margin-bottom: 50px;
 }
